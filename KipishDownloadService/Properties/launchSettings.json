@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KipishDownloadService": {
+      "commandName": "Project",
+      "commandLineArgs": "c"
+    }
+  }
+}
