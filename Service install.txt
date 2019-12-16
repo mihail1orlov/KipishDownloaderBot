@@ -1,0 +1,10 @@
+1) Go to Framework64\v4.0.30319
+   cd C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+2) Instal Service
+   Call InstallUtil.exe with path where your exe file placed
+   InstallUtil.exe "D:\Code\GitRepos\Genarate_And_Calculate_Services\CalcMathExpressionService\bin\Debug\CalcMathExpressionService.exe"
+   InstallUtil.exe "D:\Code\GitRepos\Genarate_And_Calculate_Services\GenerateMathExpressionService\bin\Debug\GenerateMathExpressionService.exe"
+   Start\Stop service from "Services"
+3) Delete service
+   InstallUtil.exe /u "D:\Code\GitRepos\Genarate_And_Calculate_Services\CalcMathExpressionService\bin\Debug\CalcMathExpressionService.exe"
+   InstallUtil.exe /u "D:\Code\GitRepos\Genarate_And_Calculate_Services\CalcMathExpressionService\bin\Debug\CalcMathExpressionService.exe"
